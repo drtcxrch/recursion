@@ -9,7 +9,7 @@ var getElementsByClassName = function(className) {
   var body = document.body;
 
   var searchNode = function (element) {
-    console.log(element);
+
     if (element.classList && element.classList.contains(className)) {
       elements.push(element);
     }
