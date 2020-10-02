@@ -26,6 +26,7 @@ var stringifyJSON = function(obj) {
     return strungArr + ']';
 
   } else {
+
     var strungObj = '{';
 
     for (var key in obj) {
